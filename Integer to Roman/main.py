@@ -5,8 +5,8 @@ lst =  [
 ]
 
 n = int(input())
-if n == 0 or n < 0:
-    print("Invalid Integer")
+if n == 0 or n < 0 or n > 3999:
+    print("Roman numerals typically support values 1 - 3999.")
     exit()
 
 roman = ""
