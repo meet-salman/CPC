@@ -2,9 +2,10 @@
 # loi = [[4, 8], [0, 9], [1, 1], [9, 0], [6, 3]]
 
 loi = []
-n = int(input("Enter number of pairs: "))
+n = int(input("Enter number of items: "))
 null = True
 
+## Input all items
 print ("Enter weight and price separated by space: ")
 for i in range(n):
     item = list(map(int, input(f"Item {i+1}: ", ).split()))
